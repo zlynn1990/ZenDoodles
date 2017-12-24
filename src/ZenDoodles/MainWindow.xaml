@@ -1,0 +1,8 @@
+﻿<Window x:Class="ZenDoodles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Zen Doodles" Width="750" Height="750" Closed="OnClosed" SizeChanged="OnResize">
+    <Grid>
+        <Image Height="720" HorizontalAlignment="Left" Name="Canvas" Stretch="Fill" VerticalAlignment="Top" Width="1280" />
+    </Grid>
+</Window>
